@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.content{
+    border: 1px solid blue;
+    margin: 5px 15px;
+    padding: 0px 5px;
+}
+.display-static{
+    border: 1.5px solid green;
+    background-color: aqua;
+    position: static;
+}
