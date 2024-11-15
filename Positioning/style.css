@@ -18,3 +18,21 @@
     top: 30px;
     left: 45px;
 }
+.position-absolute{
+    position: absolute;
+    /* bottom: 30px; */
+}
+.position-sticky{
+    position: sticky;
+    top: 0;
+}
+/* .text{
+    width: 3%;
+} */
+
+.position-fixed{
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    /* width: 38px; */
+}
