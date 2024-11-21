@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 15px;
+}
+
+.navigation a:hover{
+    background-color: white;
+    color: #000;
+}
+.form{
+    margin: 25px;
+}
+.form input{
+    border: 2px dashed red;
+}
+.form input:focus{
+    border: none;
+    background-color: blue;
+}
+.navigation ul li:nth-child(even){
+    background-color: blue;
+}
