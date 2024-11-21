@@ -1,0 +1,56 @@
+<style>.about-button{background: #124481;
+
+}
+.contact-member{
+    background: white;
+    color: gray;
+   
+}
+.main_heading{
+    text-align: center;
+}
+.main_heading p{
+    color: brown; font-weight: 400 ;
+}
+    .member-container{
+        text-align: center;
+        border: .7px solid gray;
+        border-radius: 2px;
+        margin: 5px;
+    }
+    .member-container h3{       
+        font-weight: 400;
+        font-weight: bold;
+    }
+
+    .member-container img{
+        display: flex;
+    }
+    .borderless-buttons{
+       border: none; 
+       padding: 8px 6px;
+       border-radius: 1px;
+       border: 1px solid gray;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+    .member_title{
+        font-size: 14px;
+    }
+
+    @media(max-width:600px){
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .main-heading{
+            text-align: center;
+        }
+        .main-container{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
